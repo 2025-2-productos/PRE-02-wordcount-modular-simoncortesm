@@ -13,4 +13,14 @@
         "black"
     ],
     "editor.detectIndentation": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestArgs": [
+        "."
+    ],
 }
